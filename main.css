@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: black;
+}
+
+.header-container {
+    max-width: 1208px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.header-logo {
+    margin-right: auto;
+    display: flex;
+}
+
+.header-btn {
+    border: 1px solid #747474;
+    padding: 7px 15px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13.19px;
+    font-weight: 500;
+    line-height: 19.79px;
+    color: #c1c1c1;
+}
+
+.header-btn-light {
+    color: #000000;
+    background-color: white;
+    border: none;
+}
+
+@media (max-width: 768px) {}
+
+.hero {
+    background-color: black;
+    padding-top: 87px;
+    padding-bottom: 53px;
+}
+
+.hero-container {
+    max-width: 627px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.hero-images {
+    width: 231px;
+    height: 231px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+
+.hero-title {
+    font-family: Poppins, sans-serif;
+    font-size: 53.42px;
+    font-weight: 700;
+    line-height: 55.13px;
+    letter-spacing: -0.06em;
+    color: white;
+}
+
+.hero-info {
+    font-family: Poppins, sans-serif;
+    font-size: 26.11px;
+    font-weight: 600;
+    line-height: 39.16px;
+    margin-bottom: 21px;
+    color: white;
+}
+
+.hero-text {
+    font-family: Poppins sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 34px;
+    color: white;
+}
+
+.hero-btn {
+    background-color: black;
+    padding: 16px 49px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #585858;
+    color: #c1c1c1;
+    background-color: #000000;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .hero-images {
+        background-color: #1a1a1a;
+        width: 180px;
+        height: 180px;
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .hero-info {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 28px;
+    }
+
+    .hero-btn {
+        padding: 16px 28px;
+    }
+}
+
+.About {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+.About-container {
+    max-width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.About-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 54.49px;
+    text-align: center;
+    color: white;
+    letter-spacing: -0.03em;
+}
+
+.About-info {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.31px;
+    letter-spacing: 0.6em;
+    text-align: center;
+    margin-bottom: 27px;
+    color: white;
+}
+
+.About-text {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.57px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .About {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .About-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .About-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.experience {
+    padding-top: 98px;
+    padding-bottom: 98px;
+    background-color: #000000;
+    color: white;
+}
+
+.experience-container {
+    max-width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.experience-title {
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 54.46px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.experience-info {
+    padding-bottom: 8px;
+    color: #c1c1c1;
+}
+
+.experience-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-box-text2 {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.text11 {
+    padding-top: 15px;
+}
+
+.div54 {
+    margin-right: 330px;
+    padding: 8px;
+}
+
+.experience-btn {
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    padding-right: auto;
+    border: 2px solid #B085DB;
+    gap: 5px;
+}
+
+.Projects {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: black;
+}
+
+.Projects-box {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Projects-title {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 54.46px;
+    letter-spacing: -3%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Projects-title-2 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 11px;
+    letter-spacing: 60%;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.Projects-h1 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16.22px;
+    line-height: 19.63px;
+    letter-spacing: -3%;
+}
+
+.Projects-p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 7.26px;
+    letter-spacing: -3%;
+    font-family: sans-serif;
+}
+
+.Projects-h7 {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Projects-h2 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16.22px;
+    line-height: 19.63px;
+    letter-spacing: -3%;
+}
+
+.Projects-p-2 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 7.26px;
+    letter-spacing: -3%;
+    font-family: sans-serif;
+}
+
+.Projects-h5 {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Projects-h3 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16.22px;
+    line-height: 19.63px;
+    letter-spacing: -3%;
+}
+
+.Projects-p-8 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 7.26px;
+    letter-spacing: -3%;
+    font-family: sans-serif;
+}
+
+.Projects-h8 {
+    width: 126px;
+    height: 70.93px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 7.55px;
+}
+
+.Projects-h4 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 16.22px;
+    line-height: 19.63px;
+    letter-spacing: -3%;
+}
+
+.Projects-p-4 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 7.26px;
+    letter-spacing: -3%;
+    font-family: sans-serif;
+}
+
+.Projects-h6 {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Projects-rov {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.hahaha {
+    width: 127px;
+    height: 93px;
+    border-radius: 7.55px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-family: Inter sans-serif;
+    font-size: 16.22px;
+    font-weight: 800;
+    line-height: 19.63px;
+    letter-spacing: -0.03em;
+}
+
+.footer {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #000000;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+}
+
+.footer-containar {}
+
+.footer-2 {
+    gap: 38.87px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info {
+    font-family: sans-serif;
+}
